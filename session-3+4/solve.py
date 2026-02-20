@@ -53,6 +53,7 @@ print(len(q5_string))
 print(q5_string.upper())
 print(q5_string.replace("python", "java"))
 
+## Q6 solve
 q6_string = input("Enter a string: ")
 print("The first character of the string is: " + q6_string[0])
 print("The last character of the string is: " + q6_string[-1])
@@ -71,6 +72,17 @@ print(q7_string[0:7])
 print(q7_string[6:])
 print(q7_string[::-1])
 
+## Q8 solve
 q8_string = input("Enter a string: ")
-
 print(q8_string[1:-2])
+
+# """Part5: Lists"""
+## Q9 solve
+q9_list = [1, 2, 3, 4, 5]
+print(q9_list)
+print("Maximum value in the list: " + str(max(q9_list)))
+print("Minimum value in the list: " + str(min(q9_list)))
+q9_list.append(6)
+print("List after appending 6: " + str(q9_list))
+q9_list.pop()
+print("List after removing last element: " + str(q9_list))
