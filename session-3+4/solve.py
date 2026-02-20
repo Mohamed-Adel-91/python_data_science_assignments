@@ -23,6 +23,7 @@ print("The multiplication of " + str(q2_num1) + " and " + str(q2_num2) + " is: =
 Q2_division = q2_num1 / q2_num2
 print("The division of " + str(q2_num1) + " by " + str(q2_num2) + " is: = " + str(Q2_division))
 
+# """Part2: Data Types and Type Conversion"""
 ## Q3 solve
 
 q3_num1 = int(input("Enter the first number: "))
@@ -40,3 +41,24 @@ q4_num1 = int(input("Enter the first number: "))
 print("The type of the first number is: " + str(type(q4_num1)))
 q4_num2 = float(q4_num1)
 print("The type of the second number is: " + str(type(q4_num2)))
+
+# """Part3: String functions & indexing"""
+## Q5 solve
+
+q5_string = "python programing"
+
+print(q5_string[0])
+print(q5_string[-1])
+print(len(q5_string))
+print(q5_string.upper())
+print(q5_string.replace("python", "java"))
+
+q6_string = input("Enter a string: ")
+print("The first character of the string is: " + q6_string[0])
+print("The last character of the string is: " + q6_string[-1])
+search_word = "python"
+if search_word in q6_string:
+    print("The word '" + search_word + "' is found in the string.")
+else:
+    print("The word '" + search_word + "' is not found in the string.")
+
