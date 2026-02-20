@@ -62,3 +62,15 @@ if search_word in q6_string:
 else:
     print("The word '" + search_word + "' is not found in the string.")
 
+## ""Part4: String Slicing"""
+## Q7 solve
+
+q7_string = "programing"
+
+print(q7_string[0:7])
+print(q7_string[6:])
+print(q7_string[::-1])
+
+q8_string = input("Enter a string: ")
+
+print(q8_string[1:-2])
